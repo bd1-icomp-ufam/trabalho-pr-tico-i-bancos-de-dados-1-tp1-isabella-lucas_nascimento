@@ -31,15 +31,30 @@ Os scripts Python fazem acesso direto ao SGDB usando comandos SQL.
 
 ## Arquivo de Entrada
 
-O arquivo de entrada de onde foram extraídos os dados de entrada foi o “Amazon product co-purchasing network metadata” que faz parte do Stanford Network Analysis Project (SNAP). Os dados foram coletados em 2006 do site Amazon.com e contém informações sobre produtos e comentários de clientes sobre 548.552 produtos diferentes (livros, CDs de música, DVDs e fitas de vídeo VHS). Para cada produto, a seguinte informação está disponível:
+O arquivo de entrada de onde foram extraídos os dados de entrada foi o “[Amazon product co-purchasing network metadata](https://snap.stanford.edu/data/bigdata/amazon/amazon-meta.txt.gz)” que faz parte do Stanford Network Analysis Project (SNAP). Os dados foram coletados em 2006 do site Amazon.com e contém informações sobre produtos e comentários de clientes sobre 548.552 produtos diferentes (livros, CDs de música, DVDs e fitas de vídeo VHS). Para cada produto, a seguinte informação está disponível:
 
-Título
-Posição no ranking de vendas (Salesrank)
-Lista de produtos ``similares’’ (que foram adquiridos junto com o produto)
-Informação de categorização do produto – Categorias e subcategorias ao qual o produto pertence
-Comentários sobre os produtos: 
-Informação data, id do cliente, classificação, número de votos, o número de pessoas que acharam a avaliação útil
+Título\
+Posição no ranking de vendas (Salesrank)\
+Lista de produtos ``similares’’ (que foram adquiridos junto com o produto)\
+Informação de categorização do produto – Categorias e subcategorias ao qual o produto pertence\
+Comentários sobre os produtos: Informação data, id do cliente, classificação, número de votos, o número de pessoas que acharam a avaliação útil\
 
+## Scripty do código
+
+Caso não possua o psycopg2 instalado no computador, digite o seguinte comando no terminal
+  
+```sh
+pip install psycopg2-binary==2.9.5
+```
+
+Após baixar os arquivos disponibilizados no github, entre no diretorio que foram baixados 
+```sh
+pip install psycopg2-binary==2.9.5
+```
+
+```sh
+pip install psycopg2-binary==2.9.5
+```
 
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zixaop7v)
