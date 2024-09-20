@@ -186,4 +186,3 @@ if __name__ == '__main__':
             processar_opcao(opcao)
         except ValueError:
             print("Entrada inválida. Por favor, insira um número.")
-
