@@ -47,14 +47,18 @@ Caso não possua o psycopg2 instalado no computador, digite o seguinte comando n
 pip install psycopg2-binary==2.9.5
 ```
 
-Após baixar os arquivos disponibilizados no github, entre no diretorio que foram baixados 
+Após baixar os arquivos disponibilizados no github, entre no diretorio que foram baixados e execute o script tp1_3.2.py para extração dos metadados e criação e inserção do banco de dados
 ```sh
-pip install psycopg2-binary==2.9.5
+python3 tp1_3.2.py
 ```
+O script solicitará o local do arquivo que se encontra os metadados
+ex: /home/NomeUsuario/Downloads/amazon-meta.txt
 
+Espere a extração dos dados e a inserção deles, após terminarem, inicialize o script tp1_3.3 para realizar as consultar conforme o dashboard especificado
 ```sh
-pip install psycopg2-binary==2.9.5
+python3 tp1_3.3.py
 ```
+Será apresentado um menu com as opções de consulta
 
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zixaop7v)
