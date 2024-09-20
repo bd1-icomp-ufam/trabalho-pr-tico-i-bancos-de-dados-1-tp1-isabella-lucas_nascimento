@@ -17,17 +17,14 @@ Os scripts Python fazem acesso direto ao SGDB usando comandos SQL.
 
 **tp1_3.3.py:** Script main, implementado um menu interativo para que o usuário possa escolher as opções desejadas de consulta no banco de dados.
 
-**tp1_3.2.py:** Script main, realiza as extrações dos dados do arquivo, conexão com o SGBD, criação das tabelas do banco e inserção dos dados. 
+**tp1_3.2.py:** Script main, realiza as extrações dos dados do arquivo, conexão com o SGBD, criação das tabelas do banco e inserção dos dados. Possui as definições de classes de modelos relacionadas às entidades do sistema, como Product, Category, Review e SimilarProducts. Cada classe mapeia as tabelas do banco de dados e possui métodos para converter os dados em tuplas adequadas para inserção no banco. 
 
 **tp1_3.1.PDF:** Arquivo PDF com o esquema, dicionario e diagrama do banco de dados.
-
-**model.py:** Script que contém as definições de classes de modelos relacionadas às entidades do sistema, como Product, Category, Review e SimilarProducts. Cada classe mapeia as tabelas do banco de dados e possui métodos para converter os dados em tuplas adequadas para inserção no banco.
 
 **infobase.ini:** Arquivo de configuração que contém as informações de conexão com o SGBD
 
 **db_create.sql:** Arquivo que contém as instruções SQL para criar as tabelas do banco de dados necessárias para o sistema. Ele define as estruturas de dados para entidades como products, categories, reviews, entre outras.
 
-**controller.py:** Script que define os controladores para gerenciar as interações com o banco de dados. Ele inclui classes de controle para cada entidade do sistema (por exemplo, ProductController, CategoryController) e contém métodos para inserir e manipular dados nas tabelas correspondentes do banco.
 
 ## Arquivo de Entrada
 
