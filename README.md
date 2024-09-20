@@ -51,7 +51,7 @@ Após baixar os arquivos disponibilizados no github, entre no diretorio que fora
 ```sh
 python3 tp1_3.2.py
 ```
-O script solicitará o local do arquivo que se encontra os metadados
+O script solicitará o local do arquivo que se encontra os metadados\
 ex: /home/NomeUsuario/Downloads/amazon-meta.txt
 
 Espere a extração dos dados e a inserção deles, após terminarem, inicialize o script tp1_3.3 para realizar as consultar conforme o dashboard especificado
